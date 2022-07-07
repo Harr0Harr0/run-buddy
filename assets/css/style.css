@@ -247,7 +247,7 @@ section {
     justify-content: space-around;
 }
 .trainer {
-    margin: 0 auto 30px auto;
+    margin: 20px;
     background: #024e76;
     color: #fce138;
     flex: 1;
