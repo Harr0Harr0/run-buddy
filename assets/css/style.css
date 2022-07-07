@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-/* apply style to <body>*/
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
-/* apply style to <header> */
+
+/* HEADER / NAV BAR STYLES START */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -17,19 +17,19 @@ header {
     justify-content:space-between;
     flex-wrap: wrap;
 }
-/* applying style to <h1> within the <header> */
+
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
 }
-/* applying to <a> items within the <header> */
+
 header a {
     text-decoration: none;
     color: #fce138;
 }
-/* changed from inline element to flexbox element*/
+
 header nav {
     margin: 7px 0;
 }
@@ -47,7 +47,9 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
+/* HEADER / NAVBAR STYLES END */
 
+/* FOOTER STYLES START */
 footer {
     background: #fce138;
     width: 100%;
@@ -71,12 +73,14 @@ footer div {
 footer a {
     color: #024e76
 }
+/* END FOOTER STYLES */
 
+/* STYLE ALL SECTION TAGS */
 section {
     padding: 60px;
-
 }
 
+/* HERO STYLES START */
 .hero {
     background-image: url(../images/hero-bg.jpg);
     background-size: cover;
@@ -85,20 +89,6 @@ section {
     justify-content: center;
     flex-wrap: wrap;
 }
-
-/*home page hero: 
-.hero {
-    margin: 20px;
-    background-color: white;
-    font-size: 20px;
-    color: blue;
-}*/
-
-/*secondary page hero: 
-.hero-secondary {
-    background-color: black;
-    color: red;
-}*/
 
 .hero-cta {
     width: 35%;
@@ -155,11 +145,9 @@ section {
     padding:10px 20px;
     border: none;
 }
+/* HERO STYLE END */
 
-.flex-row {
-    display: flex;
-}
-
+/* SECTION TITLE STYLE START */
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -174,6 +162,12 @@ section {
     border-color: #fce138;
 }
 
+.secondary-border {
+    border-color: #39a6b2;
+}
+/* SECTION TITLE STYLE END */
+
+/* WHAT WE DO STYLES START*/
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -182,13 +176,11 @@ section {
     margin: 0 auto;
     text-align: center;
 }
+/* WHAT WE DO STYLES END */
 
+/* WHAT YOU DO STYLES START */
 .steps {
     background-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
 }
 
 .step {
@@ -238,7 +230,9 @@ section {
     line-height: 1.5;
     color: #024e76;
 }
+/* WHAT YOU DO STYLES END*/
 
+/* MEET THE TRAINERS START */
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -275,15 +269,9 @@ section {
 .trainer-bio p {
     font-size: 17px;
 }
+/* MEET THE TRAINERS END */
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
+/* REACH OUT STYLES START */
 .contact {
     background: #024e76;
 }
@@ -347,3 +335,17 @@ section {
     padding: 15px 0;
     font-size: 16px;
 }
+/* REACH OUT STYLES END */
+
+/* UTILITIES */
+.text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .flex-row {
+    display: flex;
+  }
